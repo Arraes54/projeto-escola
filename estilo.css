@@ -1,0 +1,149 @@
+/* Estilos gerais */
+* {
+	font-family: 'Outfit', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-light-blue2);
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: white;
+}
+
+/* Variáveis */
+:root {
+	--color-yellow:#003459;
+	--color-light-blue2: #007EA7;
+	--color-light-blue: #00A7E1;
+	--color-white: #fff;
+}
+
+/* Estilos da navbar */
+.navbar {
+	background-color: var(--color-yellow) ;
+	color: var(--color-white);
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar li {
+	margin-right: 10px;
+}
+
+.navbar a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	transition: .3s;
+}
+
+.navbar a:hover {
+	background-color: var(--color-white);
+	color: black;
+	border-radius: 5px;
+	font-weight: 700;
+	transform: scale(1.2);
+}
+
+/* Estilos do conteúdo */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.main-content {
+	width: 70%;
+	margin: 20px auto;
+	min-height: 100vh;
+}
+
+.main-content p {
+	text-align: justify;
+	text-indent: 30px;
+	margin: 20px 0px;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+p {
+	line-height: 1.5;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.footer-wrapper {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box {
+	width: 40%;
+	height: 100%;
+}
+
+.link-footer {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.1rem;
+	gap: 5px;
+	text-decoration: none;
+	color: var(--color-white);
+	height: 100%;
+}
+
+.link-footer a {
+	width: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+	color: var(--color-white);
+	text-decoration: none;
+}
+
+.link-footer a:hover {
+	color: var(--color-light-blue);
+}
+
+.img-footer {
+	width: 20%;
+}
+
+
