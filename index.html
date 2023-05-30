@@ -5,47 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
     <title>Escola Santos Dumont</title>
-
+    
     <!-- CDN Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <!-- Icone -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
 
 </head>
 <body>
-  <header>
+  <header class="main-header">
+    <div class="logo">
+      <h1>Santos <span>Du</span>mont</h1>
+    </div>
     <nav class="navbar">
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="contato.html">Contatos</a></li>
-        <li><a href="sobrenos.html">Sobre nós</a></li>
+        <li><a href="#footer">Contatos</a></li>
+        <li><a href="./pages/sobrenos.html">Sobre nós</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="main-content">
-    <div class="container">
-      <h1>Bem-Vindo ao Nosso Ambiente!</h1>
-      <h2>Divirta-se</h2>
-    </div>
+    <section class="landing">
+        <div class="text">
+          <h1>Seja bem-vindo</h1>
+          <br>
+          <h2>O melhor ensino para seus filhos!</h2>
+        </div>
+        <img src="./images/foto-crianca-mao-colorida.jpeg" alt="Uma criança com as mãos pintadas cobrindo o rosto">
+    </section>
+    <h3 class="sub-title">Nosso espaço</h3>
+    <figure class="imagens-escola">
+      <img src="./images/imgescola1.jpg" alt="">
+      
+      <img src="./images/imgescola3.jpg" alt="">
+      <img src="./images/imgescola4.jpg" alt="">
+      <img src="./images/imgescola5.jpg" alt="">
+      
+    </figure>
   </main>
   
-  <footer>
+  <footer id="footer">
     <div class="footer-wrapper">
       <div class="box">
         <div class="link-footer">
-          <a href="https://www.facebook.com" target="_blank">
-            <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
-            <span>Facebook</span>
+          <a href="https://www.google.com/maps/place/ESCOLA+DE+EDUCAÇÃO+INFANTIL+SANTOS+DUMONT/@-29.1972197,-51.1808324,15z/data=!4m6!3m5!1s0x951ea37d2aa2746d:0x2da15b1c337879dd!8m2!3d-29.1972197!4d-51.1808324!16s%2Fg%2F11np06fyt5?entry=ttu" target="_blank">
+            <i class='fas fa-map-marker-alt'></i>
+            <span>Localização</span>
           </a>
-          <a href="https://www.instagram.com" target="_blank">
-            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-            <span>Instagram</span>
+          <a>
+            <i class="fa fa-envelope" style="color: #ffffff;"></i>
+            <span> eeisantosdumont123@gmail.com </span>
           </a>
         </div>
       </div>
