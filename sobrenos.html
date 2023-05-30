@@ -5,50 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
     <title>Escola Santos Dumont</title>
-
+    
     <!-- CDN Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
 
+    <!-- Icones -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    
 </head>
 <body>
-  <header>
+  <header class="main-header">
+    <div class="logo">
+      <h1>Santos <span>Du</span>mont</h1>
+    </div>
     <nav class="navbar">
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="contato.html">Contatos</a></li>
-        <li><a href="sobrenos.html">Sobre nós</a></li>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="#footer">Contatos</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="main-content">
-    <div class="container">
-      <h1>Bem-Vindo ao Nosso Ambiente!</h1>
-      <h2>Divirta-se</h2>
-    </div>
-
-    
+    <section class="about">
+        <div class="about-text">
+            <h1>Sobre nós <em>(texto exemplo)</em></h1>
+            <p>
+              Na Escola Infantil Santos Dumont, nosso compromisso é proporcionar um ambiente seguro, acolhedor e estimulante para o desenvolvimento e aprendizado das crianças. Com uma equipe dedicada de educadores e uma proposta pedagógica sólida, estamos comprometidos em oferecer uma educação de qualidade desde os primeiros anos de vida.
+            </p>
+            <p>
+              Nossa escola leva o nome de Santos Dumont, um visionário pioneiro da aviação que personificou a coragem, a curiosidade e a perseverança. Inspirados por seu espírito inovador, buscamos estimular a criatividade e o pensamento crítico em nossos alunos, incentivando-os a explorar e descobrir o mundo ao seu redor.
+            </p>
+            <p>
+              Nossas instalações são especialmente projetadas para atender às necessidades das crianças em diferentes faixas etárias. Contamos com salas de aula espaçosas e bem equipadas, áreas de recreação ao ar livre, uma biblioteca aconchegante e uma sala de atividades especiais para estimular o desenvolvimento motor e cognitivo dos pequenos.
+            </p>
+            <p>
+              Nossa equipe é composta por profissionais qualificados e apaixonados pelo ensino infantil. Acreditamos que cada criança é única e tem potencial para brilhar. Nossos educadores estão comprometidos em fornecer um ambiente de apoio e encorajamento, onde cada criança pode crescer, aprender e se expressar livremente.
+            </p>
+            <p>
+              Nosso currículo é baseado em uma abordagem lúdica e integrada, que valoriza a aprendizagem por meio de brincadeiras, jogos e atividades práticas. Promovemos o desenvolvimento de habilidades socioemocionais, linguagem, matemática, ciências, artes e muito mais. Nosso objetivo é preparar as crianças para a vida escolar, cultivando um amor pelo aprendizado e incentivando sua curiosidade natural.
+            </p>
+            <p>
+              A parceria com os pais e responsáveis é essencial para nós. Valorizamos a comunicação aberta e transparente, buscando uma colaboração próxima entre a escola e as famílias. Realizamos reuniões regulares, eventos e atividades conjuntas para envolver os pais no processo educativo de seus filhos.
+            </p>
+            <p>
+              Na Escola Infantil Santos Dumont, a segurança e o bem-estar das crianças estão sempre em primeiro lugar. Seguimos rigorosos protocolos de segurança e higiene, garantindo um ambiente saudável para todos. Além disso, contamos com um sistema de segurança eficiente e uma equipe de funcionários atenta e dedicada.
+            </p>
+            <p>
+              Estamos ansiosos para receber você e sua família na Escola Infantil Santos Dumont. Agende uma visita para conhecer nosso espaço e descobrir como podemos contribuir para o desenvolvimento e felicidade do seu filho. Juntos, vamos construir um futuro brilhante!
+              Equipe Escola Infantil Santos Dumont
+            </p>
+          </div>
+          <figure class="sobre-nos">
+          <img src="../images/foto-escola.jpg" alt="Foto contendo uma lousa, cadeiras e mesas escolares">
+          
+        </figure>
+        </section>
   </main>
   
-  <footer>
-    <div class="link-footer">
-      <a href="https://www.facebook.com" target="_blank">
-        <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
-        <span>Facebook</span>
-      </a>
-      <a href="https://www.instagram.com" target="_blank">
-        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-        <span>Instagram</span>
-      </a>
+  <footer id="footer">
+    <div class="footer-wrapper">
+      <div class="box">
+        <div class="link-footer">
+          <a href="https://www.google.com/maps/place/ESCOLA+DE+EDUCAÇÃO+INFANTIL+SANTOS+DUMONT/@-29.1972197,-51.1808324,15z/data=!4m6!3m5!1s0x951ea37d2aa2746d:0x2da15b1c337879dd!8m2!3d-29.1972197!4d-51.1808324!16s%2Fg%2F11np06fyt5?entry=ttu" target="_blank">
+            <i class='fas fa-map-marker-alt'></i>
+            <span>Localização</span>
+          </a>
+          </a>
+          <a>
+            <i class="fa fa-envelope" style="color: #ffffff;"></i>
+            <span> eeisantosdumont123@gmail.com </span>
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <address>
+          <p>
+            R. Carlos Augusto Barbosa, 15 - Salgado Filho
+          </p>
+          <p>
+            Caxias do Sul - RS
+          </p>
+          <p>
+            CEP: 95098-030
+          </p>
+        </address>
+      </div>
     </div>
-    <p>Acesse nossas Redes Sociais! 😀</p>
   </footer>
 </body>
 </html>
